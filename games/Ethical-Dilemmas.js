@@ -116,8 +116,32 @@ const questions = [
     question: "Your friend is on a long losing streak against you. <n> Do you let them win?",
     yes: "love_others",
     no: "love_self"
+  },
+  {
+    question: "You realize you have been undercharged on your bill. <n> Do you point it out?",
+    yes: "love_others",
+    no: "love_self"
+  },
+  {
+    question: "You are in a rush to use the only bathroom, seeing someone else walking toward it. <n> Do you speed up?",
+    yes: "love_self",
+    no: "love_others"
+  },
+  {
+    question: "When splitting a bill, <n> your meal cost significantly less than everyone else. Do you speak up?",
+    yes: "love_self",
+    no: "love_others"
+  },
+  {
+    question: "The Uber driver takes a longer route but does not charge you extra. Do you give them a bad rating?",
+    yes: "love_self",
+    no: "love_others"
+  },
+  {
+    question: "Your sibling leaves their bowl of candy unattended, do you take some?",
+    yes: "love_self",
+    no: "love_others"
   }
-  
 ];
 setBackground("Z")
 setLegend(
